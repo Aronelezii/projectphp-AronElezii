@@ -1,11 +1,13 @@
 const loginBtn = document.querySelector("#login");
-const registerBtn = document.querySelector("#register");
+const registerBtn = document.getElementById("register");
 const loginForm = document.querySelector(".login-form");
 const registerForm = document.querySelector(".register-form");
 
 
-loginBtn.addEventListener('click', () => {
-    loginBtn.style.backgroundColor = "#21264D";
+// loginBtn.addEventListener('click', () => {
+   
+// });
+function loginBtnclick (){ loginBtn.style.backgroundColor = "#21264D";
     registerBtn.style.backgroundColor = "rgba(255, 255, 255, 0.2)";
 
     loginForm.style.left = "50%";
@@ -15,9 +17,7 @@ loginBtn.addEventListener('click', () => {
     registerForm.style.opacity = 0;
 
     document.querySelector(".col-1").style.borderRadius = "0 30% 20% 0";
-
-})
-
+}
 registerBtn.addEventListener('click', () => {
     loginBtn.style.backgroundColor = "rgba(255, 255, 255, 0.2)";
     registerBtn.style.backgroundColor = "#21264D";
@@ -30,4 +30,4 @@ registerBtn.addEventListener('click', () => {
 
     document.querySelector(".col-1").style.borderRadius = "0 20% 30% 0";
 
-})
+});

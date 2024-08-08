@@ -26,7 +26,7 @@
         </div> 
         <div class="col col-2">
             <div class="btn-box">
-                <button class="btn btn-1" id="login">Sign In</button>
+                <button onclick="loginBtnclick()" class="btn btn-1" id="login">Sign In</button>
                 <button class="btn btn-2" id="register">Sign Up</button>
             </div>
 
