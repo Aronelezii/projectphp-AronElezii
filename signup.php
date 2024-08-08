@@ -6,7 +6,7 @@
     <title>Login Form | Aron Elezi</title>
     <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="js/main.js"></script>
+   
 </head>
 <body>
 
@@ -27,7 +27,8 @@
         <div class="col col-2">
             <div class="btn-box">
                 <button onclick="loginBtnclick()" class="btn btn-1" id="login">Sign In</button>
-                <button class="btn btn-2" id="register">Sign Up</button>
+                <button onclick="registerBtnClick()" class="btn btn-2" id="register">Sign Up</button>
+           
             </div>
 
             <div class="login-form">
@@ -101,6 +102,7 @@
     
 </body>
 </html>
+<script src="js/main.js"></script>
 
 
 
